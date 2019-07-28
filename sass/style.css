@@ -190,6 +190,10 @@ li {
   margin-top: 5px;
 }
 
+.fotorama__nav__shaft .fotorama__thumb-border {
+  border-color: yellow;
+}
+
 .dataTables_scrollHeadInner .tablepress {
   background-color: #FFDB00;
 }
