@@ -203,6 +203,10 @@ li {
   overflow-x: auto;
 }
 
+.tabl .dataTables_scrollHead tr {
+  text-align: left;
+}
+
 .tabl .dataTables_scrollBody .row-hover img {
   max-width: 60%;
 }
@@ -217,6 +221,10 @@ li {
 
 .tabl .dataTables_scrollBody tr:nth-child(even):hover {
   background-color: #F3F3F3;
+}
+
+.tabl .dataTables_scrollBody .row-hover-fr img {
+  max-width: 90%;
 }
 
 .mail {
