@@ -410,10 +410,9 @@ li {
   position: fixed;
   left: 50%;
   width: 373px;
-  top: 35%;
-  margin: 0 auto;
-  right: 0;
-  left: 0;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .overlay .popup .popup-close {
