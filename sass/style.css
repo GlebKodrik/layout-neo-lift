@@ -540,6 +540,14 @@ li {
   .container .section-main .section-main-img {
     margin-bottom: 30px;
   }
+  .container .section-table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .footer {
     height: 100%;
   }
