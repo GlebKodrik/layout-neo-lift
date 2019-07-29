@@ -617,6 +617,12 @@ li {
   }
 }
 
+@media (max-width: 626px) {
+  .tab-b .container {
+    padding: 0 10px;
+  }
+}
+
 @media (max-width: 514px) {
   .footer .footer-section .footer-contact {
     text-align: center;
