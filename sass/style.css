@@ -513,14 +513,6 @@ li {
 }
 
 @media (max-width: 1668px) {
-  .container .section-table {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .tabs-body {
     margin-bottom: 30px;
   }
