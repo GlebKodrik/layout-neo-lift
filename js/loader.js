@@ -1,6 +1,4 @@
-$(document).ready(function(){
-    setTimeout(function(){
-        $('body').addClass('done');
-    },1000.);
-    $('body').addClass('done').fadeOut();
-});
+$(window).on('load', function () {
+    $preloader = $('.loaderArea'),
+    $preloader.delay(3500).fadeOut('slow');
+  });
