@@ -226,6 +226,7 @@ li
 	position: fixed
 	display: none
 	top: 0
+	left: 0
 	width: 100%
 	height: 100%
 	z-index: 5
@@ -234,8 +235,8 @@ li
 		position: fixed
 		left: 50%
 		width: 373px
-		top: 200px
-		transform: translateX(-40%)
+		top: 50%
+		transform: translate(-50% , -50%)
 		.popup-close 
 			position: absolute
 			right: -20px
@@ -385,7 +386,20 @@ li
 @media(max-width: 430px)
 	.yandex
 		width: 300px
+	.overlay 
+		.popup
+			width: 322px
+@media(max-width: 380px)
+	.overlay 
+		.popup
+			width: 322px
 @media(max-width: 360px)
+	.overlay 
+		.popup
+			width: 285px
+		.popup-form-header 
+			.popup-form__input
+				width: 230px
 	.header 
 		.header-dark 
 			h1
