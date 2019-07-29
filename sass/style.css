@@ -512,7 +512,7 @@ li {
   color: #fff;
 }
 
-@media (max-width: 1730px) {
+@media (max-width: 1668px) {
   .tabs-body {
     margin-bottom: 30px;
   }
@@ -532,9 +532,6 @@ li {
   .container .section-main .section-main-img {
     margin-bottom: 30px;
   }
-}
-
-@media (max-width: 1040px) {
   .footer {
     height: 100%;
   }
