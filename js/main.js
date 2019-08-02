@@ -60,3 +60,7 @@ $(document).ready(function () {
 	});
 });
 
+$(window).on('load', function () {
+	$preloader = $('.loaderArea'),
+		$preloader.delay(1).fadeOut('slow');
+});
