@@ -2,7 +2,6 @@ window.onload = function(){
     document.querySelector('.main-menu').addEventListener('click', ftabs);
 
     function ftabs(event){
-        console.log(event);
         if (event.target.className == 'tab-h'){
             var dataTab = event.target.getAttribute('data-tab');
             //отключ

@@ -40,3 +40,23 @@ $(function($){
 	$('[name="number"]').mask("+7(999) 999-9999");
 });
 
+function show(){
+	$('.overlay').fadeIn();
+};
+
+function back(){
+    $('.overlay').fadeOut();
+};
+
+setTimeout(show,6000);
+setTimeout(back,20000);
+
+$(document).ready(function () {
+	$('.call').on("click", function () {
+		$('.overlay').fadeIn();
+	});
+	$('.popup-close').on("click", function () {
+		$('.overlay').fadeOut();
+	});
+});
+

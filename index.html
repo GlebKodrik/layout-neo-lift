@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="sass/style.css">
 	<title>Подьемная техника</title>
 </head>
+
 <body>
 	<div class="loaderArea"></div>
 	<div class="preloader">
@@ -26,8 +27,18 @@
 					<a href="index.html">
 						<img src="img/logo.png" alt="Логтип">
 					</a>
-					<h1>Подъемная техника</h1>
 				</div>
+				<div class="header-call">
+					<div class="header-call-icon">
+						<img src="img/number.svg" alt="Логтип">
+					</div>
+					<div class="header-call-num">
+						<a href="tel:+78124380788">+7 (812) 438 07 88</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-title">
+				<h1>Подъемная техника</h1>
 			</div>
 		</div>
 	</header>
@@ -38,6 +49,7 @@
 					<li><a href="#" onclick="return false;" class="tab-h active" data-tab="0">XDT</a></li>
 					<li><a href="#" onclick="return false;" class="tab-h" data-tab="1">XR</a></li>
 					<li><a href="#" onclick="return false;" class="tab-h" data-tab="2">HDT-C</a></li>
+
 				</ul>
 			</div>
 		</div>
@@ -238,7 +250,7 @@
 													<td class="column-8">41 t*</td>
 												</tr>
 												<tr class="row-9 odd " role="row">
-													<td class="column-1">*в зависимости от шасси</td>
+													<td class="column-1" colspan="2">*в зависимости от шасси</td>
 													<td class="column-2"></td>
 													<td class="column-3"></td>
 													<td class="column-4"></td>
@@ -398,7 +410,7 @@
 													<td class="column-4">32 t*</td>
 												</tr>
 												<tr class="row-9 odd" role="row">
-													<td class="column-1">*в зависимости от шасси</td>
+													<td class="column-1" >*в зависимости от шасси</td>
 													<td class="column-2"></td>
 													<td class="column-3"></td>
 													<td class="column-4"></td>
@@ -601,8 +613,7 @@
 													<td class="column-6">42 t*</td>
 												</tr>
 												<tr class="row-9 odd" role="row">
-													<td class="column-1">*в зависимости от шасси<br>
-													</td>
+													<td class="column-1" >*в зависимости от шасси<br></td>
 													<td class="column-2"></td>
 													<td class="column-3"></td>
 													<td class="column-4"></td>
@@ -661,7 +672,7 @@
 			</div>
 		</div>
 	</footer>
-	<div class="overlay">
+	<div class="overlay" id="show">
 		<div class="popup">
 			<div class="popup-title">
 				Форма обратной связи
@@ -694,27 +705,16 @@
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
-	$(window).on('load', function () {
-		$preloader = $('.loaderArea'),
-		$preloader.delay(1).fadeOut('slow');
-  	});
-    </script>
+		$(window).on('load', function () {
+			$preloader = $('.loaderArea'),
+				$preloader.delay(1).fadeOut('slow');
+		});
+	</script>
 	<script src="fotorama-4.6.4/fotorama.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/main-form-2.js"></script>
-	<script>
-		$(document).ready(function () {
-			$('.call').on("click", function () {
-				$('.overlay').fadeIn();
-			});
-			$('.popup-close').on("click", function () {
-				$('.overlay').fadeOut();
-			});
-		});
-	</script>
 	<script src="js/js.js"></script>
 	<script src="js/js-mail.js"></script>
 	<script src="js/maska.js"></script>
 </body>
-
 </html>
