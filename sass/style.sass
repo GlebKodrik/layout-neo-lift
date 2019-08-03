@@ -39,6 +39,7 @@ li
     z-index: 100000
 .header
 	height: 600px
+	background-color: black
 	background-image: url("../img/car.png")
 	background-position: center
 	background-repeat: no-repeat 
@@ -55,18 +56,16 @@ li
 			align-items: center
 			height: 100px
 			width: 100%
-			padding: 0 10px
+			padding: 0 20px
 			background-color: rgba(#fff , .9)
 			.header-call
 				display: flex
 				align-items: center
 				.header-call-icon
-					width: 44px
+					width: 40px
 				.header-call-num
 					a 
 						font-size: 25px
-
-				
 		h1
 			text-align: center
 			color: #fff
@@ -223,6 +222,7 @@ li
 	display: flex 
 	justify-content: center
 	background-image: url("../img/footer.png")
+	background-color: black
 	background-position: center
 	background-repeat: no-repeat 
 	background-size: cover
@@ -260,10 +260,12 @@ li
 	background-color: rgba(0, 0, 0, 0.4)
 	.popup
 		position: fixed
-		left: 50%
 		width: 374px
-		top: 50%
-		transform: translate(-50%, -50%)
+		margin-left: auto
+		margin-right: auto
+		top: 34%
+		left: 0
+		right: 0
 		.popup-close 
 			position: absolute
 			right: -20px
@@ -327,13 +329,14 @@ li
 	background-color: rgba(0, 0, 0, 0.4)
 	.inform-block
 		position: fixed
-		left: 50%
-		width: 373px
-		top: 30%
-		transform: translateX(-40%)
+		width: 374px
+		margin-left: auto
+		margin-right: auto
+		top: 34%
+		left: 0
+		right: 0
 		.inform-title
 			padding-top: 30px
-			margin-bottom: 60px
 			display: block
 			width: 100%
 			height: 300px
@@ -435,11 +438,23 @@ li
 	.overlay 
 		.popup
 			width: 322px
+	.inform 
+		.inform-block
+			width: 321px
+			.inform-title
+				height: 276px
+				padding-top: 10px
 @media(max-width: 380px)
 	.overlay 
 		.popup
 			width: 322px
 @media(max-width: 360px)
+	.inform 
+		.inform-block
+			width: 285px
+			.inform-title
+				font-size: 15px
+				height: 252px
 	.overlay 
 		.popup
 			width: 284px
@@ -460,7 +475,7 @@ li
 						a
 							font-size: 17px
 					.header-call-icon
-						width: 20px
+						width: 18px
 
 				
 					

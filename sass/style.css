@@ -61,6 +61,7 @@ li {
 
 .header {
   height: 600px;
+  background-color: black;
   background-image: url("../img/car.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -87,7 +88,7 @@ li {
           align-items: center;
   height: 100px;
   width: 100%;
-  padding: 0 10px;
+  padding: 0 20px;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -101,7 +102,7 @@ li {
 }
 
 .header .header-dark .header-box .header-call .header-call-icon {
-  width: 44px;
+  width: 40px;
 }
 
 .header .header-dark .header-box .header-call .header-call-num a {
@@ -379,6 +380,7 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   background-image: url("../img/footer.png");
+  background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -437,11 +439,12 @@ li {
 
 .overlay .popup {
   position: fixed;
-  left: 50%;
   width: 374px;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  margin-left: auto;
+  margin-right: auto;
+  top: 34%;
+  left: 0;
+  right: 0;
 }
 
 .overlay .popup .popup-close {
@@ -528,16 +531,16 @@ li {
 
 .inform .inform-block {
   position: fixed;
-  left: 50%;
-  width: 373px;
-  top: 30%;
-  -webkit-transform: translateX(-40%);
-          transform: translateX(-40%);
+  width: 374px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 34%;
+  left: 0;
+  right: 0;
 }
 
 .inform .inform-block .inform-title {
   padding-top: 30px;
-  margin-bottom: 60px;
   display: block;
   width: 100%;
   height: 300px;
@@ -691,6 +694,13 @@ li {
   .overlay .popup {
     width: 322px;
   }
+  .inform .inform-block {
+    width: 321px;
+  }
+  .inform .inform-block .inform-title {
+    height: 276px;
+    padding-top: 10px;
+  }
 }
 
 @media (max-width: 380px) {
@@ -700,6 +710,13 @@ li {
 }
 
 @media (max-width: 360px) {
+  .inform .inform-block {
+    width: 285px;
+  }
+  .inform .inform-block .inform-title {
+    font-size: 15px;
+    height: 252px;
+  }
   .overlay .popup {
     width: 284px;
   }
@@ -719,7 +736,7 @@ li {
     font-size: 17px;
   }
   .header .header-dark .header-box .header-call .header-call-icon {
-    width: 20px;
+    width: 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */
