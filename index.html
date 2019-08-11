@@ -796,9 +796,18 @@
 	</div>
 	<div class="inform js-overlay-thank-you">
 		<div class="inform-block thankl">
-			<div class="inform-title">
+			<div class="inform-alert">
 				<h2>Спасибо за заявку!</h2>
-				<img src="img/gl.png" alt="Потвержденно">
+				<div class="check-mark"> 
+					<svg width="150" height="150" viewBox="0 0 48 48" fill="none" 
+						stroke="#CCFF90" stroke-width="4" stroke-dasharray="100">
+						   <path d="M 12,22 L 22,31 L 36,13" stroke-dashoffset="0">
+							   <animate id="animate" attributeName="stroke-dashoffset" begin="indefinite"
+									from="100" to="0" dur="3s">
+							   </animate>
+						   </path>
+					  </svg>
+				</div>
 				<div class="popup-close js-close-thank-you">&times;</div>
 			</div>
 		</div>

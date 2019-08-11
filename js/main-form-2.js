@@ -9,6 +9,7 @@ $(document).ready(function() {
 		}).done(function() {
 			$('.content').hide();
 			$('.js-overlay-thank-you').fadeIn();
+			$('#animate')[0].beginElement();
 			$(this).find('input').val('');
 			$('#form').trigger('reset');
 		});
