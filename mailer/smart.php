@@ -12,15 +12,15 @@ $mail->CharSet = 'utf-8';
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.mail.ru';  // Specify main and backup SMTP servers
+$mail->Host = 'smtp.yandex.ru';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'kodrikgleb2@mail.ru';                 // Наш логин
-$mail->Password = 'YfCvFhR34';                           // Наш пароль от ящика
+$mail->Username = 'bronto@neolift.ru';                 // Наш логин
+$mail->Password = 'BrontoPas2233';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('kodrikgleb2@mail.ru', 'Doctor Kramer');   // От кого письмо 
-$mail->addAddress('kodrikgleb2@gmail.com');     // Add a recipient
+$mail->setFrom('bronto@neolift.ru', 'bronto@neolift.ru');   // От кого письмо 
+$mail->addAddress('bronto@neolift.ru');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');

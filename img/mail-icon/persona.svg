@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" viewBox="0 0 1024 1024">
+<metadata>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="ShowGrid" value="1"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+</metadata>
+<defs/>
+<g id="Слой 1" vectornator:layerName="Слой 1">
+<path stroke="#212121" stroke-width="32.31" d="M156.169+734.928C156.169+618.967+315.145+524.961+511.251+524.961C707.358+524.961+866.333+618.967+866.333+734.928C866.333+850.89+707.358+944.896+511.251+944.896C315.145+944.896+156.169+850.89+156.169+734.928Z" fill="#ffdb00" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
+<path stroke="#212121" stroke-width="32.31" d="M274.766+359.313C274.766+197.128+381.365+65.6521+512.861+65.6521C644.357+65.6521+750.955+197.128+750.955+359.313C750.955+521.497+644.357+652.973+512.861+652.973C381.365+652.973+274.766+521.497+274.766+359.313Z" fill="#ffffff" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
+</g>
+</svg>

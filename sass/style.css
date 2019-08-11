@@ -8,8 +8,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: "Arial", sans-serif;
-  font-weight: 700;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
 }
 
 html {
@@ -35,6 +35,7 @@ button {
 a {
   color: #000;
   text-decoration: none;
+  cursor: pointer;
 }
 
 button {
@@ -44,25 +45,27 @@ button {
 li {
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
-  font-weight: 700;
 }
 
 .loaderArea {
-  background: white url("../img/logo.png") center no-repeat/auto;
+  background-image: url("../img/logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 156px;
+  background-color: white;
   overflow: hidden;
   position: fixed;
   left: 0;
   top: 0;
-  right: 0;
   bottom: 0;
-  z-index: 100000;
+  right: 0;
+  z-index: 1000;
 }
 
 .header {
   height: 600px;
   background-color: black;
-  background-image: url("../img/car.png");
+  background-image: url("../img/car.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,7 +95,21 @@ li {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.header .header-dark .header-box .header-call {
+.header .header-dark .header-box .header-logo img {
+  width: 134px;
+}
+
+.header .header-dark .header-box .header-call .header-call-email {
+  text-align: center;
+}
+
+.header .header-dark .header-box .header-call .header-call-email a {
+  color: black;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.header .header-dark .header-box .header-call .header-call-phone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,11 +118,11 @@ li {
           align-items: center;
 }
 
-.header .header-dark .header-box .header-call .header-call-icon {
-  width: 40px;
+.header .header-dark .header-box .header-call .header-call-phone .header-call-icon {
+  width: 32px;
 }
 
-.header .header-dark .header-box .header-call .header-call-num a {
+.header .header-dark .header-box .header-call .header-call-phone .header-call-num a {
   font-size: 25px;
 }
 
@@ -152,6 +169,7 @@ li {
   width: 100%;
   -webkit-transition: 250ms;
   transition: 250ms;
+  font-weight: 700;
 }
 
 .search .navigator .menu .main-menu li:hover {
@@ -179,6 +197,53 @@ li {
 
 .tab-b .container {
   padding: 0 35px;
+}
+
+.tab-b .container .container-center {
+  width: 836px;
+  margin: 0 auto;
+}
+
+.tab-b .container .container-center .info-neolift {
+  margin-bottom: 30px;
+}
+
+.tab-b .container .container-center .info-neolift h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tab-b .container .container-center .align-content .contents clearfix::before {
+  content: "";
+  display: table;
+}
+
+.tab-b .container .container-center .align-content p {
+  padding-bottom: 17px;
+}
+
+.tab-b .container .container-center .align-content ul {
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: 0;
+}
+
+.tab-b .container .container-center .align-content ul li {
+  margin-bottom: 11px;
+  padding-left: 26px;
+  line-height: 27px;
+}
+
+.tab-b .container .container-center .align-content ul li::before {
+  content: '';
+  position: relative;
+  top: -2px;
+  left: -7px;
+  width: 6px;
+  height: 6px;
+  background: #fcba1f;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .tab-b .container .section-main {
@@ -246,10 +311,6 @@ li {
   text-align: left;
 }
 
-.tabl .dataTables_scrollBody .row-hover img {
-  max-width: 60%;
-}
-
 .tabl .dataTables_scrollBody tr:hover {
   background-color: #F3F3F3;
 }
@@ -262,8 +323,18 @@ li {
   background-color: #F3F3F3;
 }
 
-.tabl .dataTables_scrollBody .row-hover-fr img {
+.tabl .dataTables_scrollBody .row-hover-frr img {
   max-width: 90%;
+}
+
+.tabl .dataTables_scrollBody .row-hover-frr .column-1 {
+  padding: 12px 10px;
+  width: 360px;
+}
+
+.tabl .dataTables_scrollBody .row-hover .column-1 {
+  padding: 12px 10px;
+  width: 360px;
 }
 
 .mail {
@@ -333,7 +404,8 @@ li {
 }
 
 .mail .content .form-mail .item .input input[placeholder="Ваше имя"] {
-  background: url("../img/mail-icon/icon.png") no-repeat 15px center;
+  background: url("../img/mail-icon/persona.svg") no-repeat 15px center;
+  background-size: 20px;
 }
 
 .mail .content .form-mail .item .input input[placeholder="Ваш email"] {
@@ -341,7 +413,8 @@ li {
 }
 
 .mail .content .form-mail .item .input input[placeholder="Ваш телефон"] {
-  background: url("../img/mail-icon/phone.jpg") no-repeat 15px center;
+  background: url("../img/mail-icon/phone.svg") no-repeat 15px center;
+  background-size: 20px;
 }
 
 .mail .content .form-mail .item textarea {
@@ -451,7 +524,7 @@ li {
   position: absolute;
   right: -20px;
   top: -30px;
-  font-weight: 300;
+  font-weight: 400;
   cursor: pointer;
   font-size: 35px;
   color: #fff;
@@ -467,7 +540,7 @@ li {
   text-transform: uppercase;
   font-size: 18px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 71px;
 }
 
@@ -494,11 +567,13 @@ li {
 }
 
 .overlay .popup-form-header input[placeholder="Имя"] {
-  background: #fff url("../img/mail-icon/icon.png") no-repeat 15px center;
+  background: #fff url("../img/mail-icon/persona.svg") no-repeat 15px center;
+  background-size: 22px;
 }
 
 .overlay .popup-form-header input[placeholder="Телефон"] {
-  background: #fff url("../img/mail-icon/phone.jpg") no-repeat 15px center;
+  background: #fff url("../img/mail-icon/phone.svg") no-repeat 15px center;
+  background-size: 22px;
 }
 
 .overlay .popup-form-header .popup-form__btn {
@@ -558,7 +633,7 @@ li {
   position: absolute;
   right: -20px;
   top: -30px;
-  font-weight: 300;
+  font-weight: 400;
   cursor: pointer;
   font-size: 35px;
   color: #fff;
@@ -617,6 +692,9 @@ li {
 }
 
 @media (max-width: 886px) {
+  .tab-b .container .container-center {
+    width: 100%;
+  }
   h1 {
     text-align: center;
   }
@@ -668,6 +746,9 @@ li {
 }
 
 @media (max-width: 460px) {
+  .search .navigator .menu .main-menu li a {
+    font-size: 24px;
+  }
   .header .header-dark .header-box {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -676,10 +757,13 @@ li {
   .header .header-dark .header-box .header-logo {
     padding: 0;
   }
-  .header .header-dark .header-box .header-call .header-call-num a {
+  .header .header-dark .header-box .header-call .header-call-email a {
+    font-size: 15px;
+  }
+  .header .header-dark .header-box .header-call .header-call-phone .header-call-num a {
     font-size: 18px;
   }
-  .header .header-dark .header-box .header-call .header-call-icon {
+  .header .header-dark .header-box .header-call .header-call-phone .header-call-icon {
     width: 30px;
   }
   .header .header-dark h1 {
@@ -732,10 +816,10 @@ li {
   .header .header-dark .header-box {
     padding: 0 2px;
   }
-  .header .header-dark .header-box .header-call .header-call-num a {
+  .header .header-dark .header-box .header-call .header-call-phone .header-call-num a {
     font-size: 17px;
   }
-  .header .header-dark .header-box .header-call .header-call-icon {
+  .header .header-dark .header-box .header-call .header-call-phone .header-call-icon {
     width: 18px;
   }
 }

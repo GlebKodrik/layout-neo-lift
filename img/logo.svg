@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns:vectornator="http://vectornator.io"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 283.8 79.1"
+	 style="enable-background:new 0 0 283.8 79.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFDB01;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;}
+	.st2{clip-path:url(#SVGID_2_);}
+</style>
+<g vectornator:layerName="РЎР»РѕР№ 1">
+	<path class="st0" d="M163.9,6.2h13v55.9h-13V6.2z"/>
+	<path class="st0" d="M186,20.3h13v41.9h-13V20.3z"/>
+	<path class="st0" d="M184.6,10.9c0-4.1,3.4-7.5,7.6-7.5c4.2,0,7.6,3.3,7.6,7.5c0,4.1-3.4,7.5-7.6,7.5C188,18.4,184.6,15,184.6,10.9
+		z"/>
+	<path class="st1" d="M2,4.3v56h13V28.2l23,32.1h13v-56H38v32l-23-32H2z"/>
+	<path class="st1" d="M126.8,1.9c-16.6,0-30.1,13.6-30.1,30.4c0,16.8,13.5,30.3,30.1,30.3c16.6,0,30.1-13.6,30.1-30.3
+		C156.9,15.5,143.4,1.9,126.8,1.9z M127.2,14.6c9.7,0,17.6,7.9,17.6,17.7c0,9.8-7.9,17.7-17.6,17.7c-9.7,0-17.6-7.9-17.6-17.7
+		C109.6,22.6,117.5,14.6,127.2,14.6z"/>
+	<g vectornator:mask="#Mask">
+		<g>
+			<path id="Mask" class="st1" d="M267,66.3v3.1H15v-3h-13v3h0v7.9H278v-0.1v-7.9v-3.1H267z"/>
+		</g>
+		<g>
+			<defs>
+				<polygon id="SVGID_1_" points="267,66.3 267,69.3 15,69.3 15,66.3 1.9,66.3 1.9,69.3 1.9,69.3 1.9,77.3 278,77.3 278,77.2 
+					278,69.3 278,66.3 				"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st2">
+				<path class="st0" d="M66.8,46.3l16.4,20.5l-43.7,34.9L23.2,81.3L66.8,46.3z"/>
+				<path class="st0" d="M232.2,46.5L248.6,67l-43.7,34.9l-16.4-20.5L232.2,46.5z"/>
+				<path class="st0" d="M147.8,46.8l16.4,20.5l-43.7,34.9l-16.4-20.5L147.8,46.8z"/>
+			</g>
+		</g>
+	</g>
+	<path class="st0" d="M238,11.3v8.9h-3.8v10.1h3.8v17.3h0.1c0,0.8,0,4.3,0.1,4.9c0.6,5.8,4.4,8.9,9.7,10.5c2,0.6,4.1,0.9,5.6,0.8
+		c2.5-0.2,3.6-1,3.6-1l0.1-9.7c0,0-2.2,0.6-3.7,0.1c-1.4-0.5-2.1-1.3-2.4-2.3c-0.3-0.9-0.3-3.3-0.3-3.3l0.2-17.3h6.2V20.1H251v-8.9
+		H238z"/>
+	<path class="st0" d="M222.1,6.7c-1.2,0-2.3,0.2-3.2,0.5c-3.5,1.3-6,2.8-7.1,4.8c-0.8,1.4-1.4,3.9-1.7,8.1h-5.4v10.1h4.9v31.9h13
+		V30.2h6.1V20.1h-5.9c0.1-2,0.5-2.5,1-3.2c1.3-1.7,5.1-0.6,5.1-0.6l0.6-8.8C229.6,7.6,225.6,6.6,222.1,6.7z"/>
+	<path class="st1" d="M61,4.3v56h0.1v0h15.5H92v-6v-6H74V37.3h15V25.3H74v-9.1h18V4.3H74H61z"/>
+	<path class="st1" d="M272.5,33.3l-9.4,13h4v14.9h11V46.3h3.9L272.5,33.3z"/>
+</g>
+</svg>
