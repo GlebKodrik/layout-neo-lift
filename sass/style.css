@@ -44,6 +44,7 @@ button {
 li {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 .loaderArea {
@@ -270,8 +271,19 @@ li {
 }
 
 .tab-b .container .section-main .section-main-info .product-info li {
-  color: #FFDB00;
   line-height: 2.3;
+}
+
+.tab-b .container .section-main .section-main-info .product-info li::before {
+  content: '';
+  position: relative;
+  top: -2px;
+  left: -7px;
+  width: 6px;
+  height: 6px;
+  background: #fcba1f;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .tab-b .container .section-main .section-main-info .product-info span {
@@ -481,7 +493,6 @@ li {
 
 .footer .footer-section .footer-contact .footer-adress {
   margin-top: 17px;
-  margin-top-line-height: 24px;
   margin-bottom: 50px;
 }
 

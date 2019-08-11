@@ -27,6 +27,8 @@ button
 li 
 	padding: 0
 	margin: 0
+	list-style: none
+			
 
 .loaderArea 
 	background-image: url("../img/logo.svg")
@@ -154,6 +156,7 @@ li
 							-khtml-border-radius: 50%
 							border-radius: 50%
 							display: inline-block
+						
 		.section-main
 			display: flex
 			flex-wrap: wrap
@@ -167,8 +170,20 @@ li
 				flex-basis: 38%
 				.product-info 
 					li
-						color: #FFDB00
 						line-height: 2.3
+						&::before
+							content: ''
+							position: relative
+							top: -2px
+							left: -7px
+							width: 6px
+							height: 6px
+							background: #fcba1f
+							-moz-border-radius: 50%
+							-webkit-border-radius: 50%
+							-khtml-border-radius: 50%
+							border-radius: 50%
+							display: inline-block
 					span 
 						color: black
 				h2 
@@ -300,8 +315,8 @@ li
 				color: red
 			.footer-adress
 				margin-top: 17px
-    			line-height: 24px
 				margin-bottom: 50px
+				
 .overlay
 	position: fixed
 	display: none
