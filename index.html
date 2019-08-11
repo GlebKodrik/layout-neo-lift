@@ -735,9 +735,18 @@
 				<form class="form-mail" action="mailer/smart.php" method="POST" id="form">
 					<div class="item">
 						<div class="input">
-							<input required placeholder="Ваше имя" type="text" name="name">
-							<input required placeholder="Ваш email" type="email" name="email">
-							<input required placeholder="Ваш телефон" type="tel" name="number" id="tel">
+							<div>
+								<i class="fa-send fa-name" aria-hidden="true"></i>
+								<input required placeholder="Ваше имя" type="text" name="name">
+							</div>
+							<div>
+								<i class="fa-send fa-email" aria-hidden="true"></i>
+								<input required placeholder="Ваш email" type="email" name="email">
+							</div>
+							<div>
+								<i class="fa-send fa-phone" aria-hidden="true"></i>
+								<input required placeholder="Ваш телефон" type="tel" name="number" id="tel">
+							</div>
 						</div>
 						<textarea required name="comments" placeholder="Сообщение"></textarea>
 					</div>
@@ -783,9 +792,16 @@
 			<div class="popup-form">
 				<form action="mailer/smart2.php" method="POST" class="main-form" id="form-mail">
 					<div class="popup-form-header">
-						<input class="popup-form__input" required placeholder="Имя" type="text" name="name" id="numb">
-						<input class="popup-form__input" required placeholder="Телефон" type="tel" name="number"
-							id="tel numb">
+						<div>
+							<i class="fa fa-name" aria-hidden="true"></i>
+							<input class="popup-form__input" required placeholder="Имя" type="text" name="name"
+								id="numb">
+						</div>
+						<div>
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<input class="popup-form__input" required placeholder="Телефон" type="tel" name="number"
+								id="tel numb">
+						</div>
 						<button class="button popup-form__btn">
 							Оставить заявку!
 						</button>
@@ -798,15 +814,15 @@
 		<div class="inform-block thankl">
 			<div class="inform-alert">
 				<h2>Спасибо за заявку!</h2>
-				<div class="check-mark"> 
-					<svg width="150" height="150" viewBox="0 0 48 48" fill="none" 
-						stroke="#CCFF90" stroke-width="4" stroke-dasharray="100">
-						   <path d="M 12,22 L 22,31 L 36,13" stroke-dashoffset="0">
-							   <animate id="animate" attributeName="stroke-dashoffset" begin="indefinite"
-									from="100" to="0" dur="3s">
-							   </animate>
-						   </path>
-					  </svg>
+				<div class="check-mark">
+					<svg width="150" height="150" viewBox="0 0 48 48" fill="none" stroke="#CCFF90" stroke-width="4"
+						stroke-dasharray="100">
+						<path d="M 12,22 L 22,31 L 36,13" stroke-dashoffset="0">
+							<animate id="animate" attributeName="stroke-dashoffset" begin="indefinite" from="100" to="0"
+								dur="1200ms">
+							</animate>
+						</path>
+					</svg>
 				</div>
 				<div class="popup-close js-close-thank-you">&times;</div>
 			</div>

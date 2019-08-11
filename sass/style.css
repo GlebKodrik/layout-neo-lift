@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -404,20 +403,6 @@ li {
   padding: 20px 15px 20px 48px;
 }
 
-.mail .content .form-mail .item .input input[placeholder="Ваше имя"] {
-  background: url("../img/mail-icon/persona.svg") no-repeat 15px center;
-  background-size: 20px;
-}
-
-.mail .content .form-mail .item .input input[placeholder="Ваш email"] {
-  background: url("../img/mail-icon/email.png") no-repeat 15px center;
-}
-
-.mail .content .form-mail .item .input input[placeholder="Ваш телефон"] {
-  background: url("../img/mail-icon/phone.svg") no-repeat 15px center;
-  background-size: 20px;
-}
-
 .mail .content .form-mail .item textarea {
   background: url("../img/mail-icon/Layer_39.png") no-repeat 19px 18px;
   padding: 20px 15px 15px 52px;
@@ -567,16 +552,6 @@ li {
   margin-bottom: 20px;
 }
 
-.overlay .popup-form-header input[placeholder="Имя"] {
-  background: #fff url("../img/mail-icon/persona.svg") no-repeat 15px center;
-  background-size: 22px;
-}
-
-.overlay .popup-form-header input[placeholder="Телефон"] {
-  background: #fff url("../img/mail-icon/phone.svg") no-repeat 15px center;
-  background-size: 22px;
-}
-
 .overlay .popup-form-header .popup-form__btn {
   text-align: center;
   font-size: 16px;
@@ -593,6 +568,42 @@ li {
 .overlay .popup-form-header .popup-form__btn:hover {
   background-color: black;
   color: white;
+}
+
+.fa-send {
+  left: 54px;
+  top: 14px;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  margin-right: -26px;
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+
+.fa {
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  margin-right: -26px;
+  position: relative;
+  z-index: 1;
+  float: left;
+  left: 56px;
+  top: 24px;
+}
+
+.fa-name {
+  background: url("../img/mail-icon/persona.svg") no-repeat center;
+}
+
+.fa-phone {
+  background: url("../img/mail-icon/phone.svg") no-repeat center;
+}
+
+.fa-email {
+  background: url("../img/mail-icon/email.png") no-repeat center;
 }
 
 .inform {
@@ -617,7 +628,6 @@ li {
 
 .inform .inform-block .inform-alert {
   padding-top: 12px;
-  display: block;
   width: 100%;
   height: 260px;
   background-color: #fff;
@@ -714,7 +724,11 @@ li {
   }
 }
 
-@media (max-width: 886px) {
+@media (max-width: 1000px) {
+  .fa-send {
+    top: 24px;
+    left: 14px;
+  }
   .tab-b .container .container-center {
     width: 100%;
   }
@@ -724,9 +738,6 @@ li {
   .footer .footer-section .footer-contact {
     font-size: 15px;
   }
-}
-
-@media (max-width: 846px) {
   .mail .content .form-mail {
     margin: 0;
   }
@@ -795,6 +806,9 @@ li {
 }
 
 @media (max-width: 430px) {
+  .fa {
+    left: 32px;
+  }
   .yandex {
     width: 300px;
   }
@@ -802,7 +816,7 @@ li {
     width: 322px;
   }
   .inform .inform-block {
-    width: 321px;
+    width: 322px;
   }
   .inform .inform-block .inform-title {
     height: 276px;
@@ -817,6 +831,9 @@ li {
 }
 
 @media (max-width: 360px) {
+  .fa {
+    left: 42px;
+  }
   .inform .inform-block {
     width: 285px;
   }

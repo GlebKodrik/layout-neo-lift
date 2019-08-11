@@ -247,14 +247,9 @@ li
 						border: 1px solid black
 						background-color: #ffffff
 						padding: 20px 15px 20px 48px
-					input[placeholder="Ваше имя"]
-						background: url("../img/mail-icon/persona.svg") no-repeat 15px center
-						background-size: 20px
-					input[placeholder="Ваш email"]
-						background: url("../img/mail-icon/email.png") no-repeat 15px center
-					input[placeholder="Ваш телефон"]
-						background: url("../img/mail-icon/phone.svg") no-repeat 15px center
-						background-size: 20px
+					.fa-name
+					.fa-email 
+					.fa-phone
 				textarea
 					background: url("../img/mail-icon/Layer_39.png") no-repeat 19px 18px
 					padding: 20px 15px 15px 52px
@@ -347,6 +342,7 @@ li
 	.popup-form-header
 		text-align: center
 		background-color: white
+
 		.popup-form-header-info
 			text-align: center
 			color: black
@@ -360,12 +356,6 @@ li
 			padding: 20px 15px 20px 48px
 			border: 1px solid #A9A9A9
 			margin-bottom: 20px
-		input[placeholder="Имя"]
-			background: #fff url("../img/mail-icon/persona.svg") no-repeat 15px center
-			background-size: 22px
-		input[placeholder="Телефон"]
-			background: #fff url("../img/mail-icon/phone.svg") no-repeat 15px center
-			background-size: 22px
 		.popup-form__btn
 			text-align: center
 			font-size: 16px
@@ -379,6 +369,32 @@ li
 			&:hover
 				background-color: black		
 				color: white	
+.fa-send
+	left: 54px
+	top: 14px
+	width: 24px
+	height: 24px
+	text-align: center
+	margin-right: -26px
+	position: relative
+	z-index: 1
+	float: left
+.fa
+	width: 22px
+	height: 22px
+	text-align: center
+	margin-right: -26px
+	position: relative
+	z-index: 1
+	float: left
+	left: 56px 
+	top: 24px
+.fa-name
+	background: url("../img/mail-icon/persona.svg") no-repeat  center
+.fa-phone
+	background: url("../img/mail-icon/phone.svg") no-repeat center
+.fa-email
+	background: url("../img/mail-icon/email.png") no-repeat center
 .inform
 	position: fixed
 	display: none
@@ -397,7 +413,6 @@ li
 		right: 0
 		.inform-alert
 			padding-top: 12px
-			display: block
 			width: 100%
 			height: 260px
 			background-color: #fff
@@ -454,7 +469,10 @@ li
 				margin: 20px 0
 			.footer-yan
 				margin-top: 17px
-@media(max-width: 886px)
+@media(max-width: 1000px)
+	.fa-send
+		top: 24px
+		left: 14px
 	.tab-b 
 		.container 
 			.container-center
@@ -465,7 +483,6 @@ li
 		.footer-section 
 			.footer-contact
 				font-size: 15px
-@media(max-width: 846px)
 	.mail
 		.content
 			.form-mail
@@ -521,6 +538,8 @@ li
 			h1
 				font-size: 60px
 @media(max-width: 430px)
+	.fa 
+		left: 32px
 	.yandex
 		width: 300px
 	.overlay 
@@ -528,7 +547,7 @@ li
 			width: 322px
 	.inform 
 		.inform-block
-			width: 321px
+			width: 322px
 			.inform-title
 				height: 276px
 				padding-top: 10px
@@ -537,6 +556,8 @@ li
 		.popup
 			width: 322px
 @media(max-width: 360px)
+	.fa 
+		left: 42px
 	.inform 
 		.inform-block
 			width: 285px
