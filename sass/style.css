@@ -47,6 +47,13 @@ li {
   list-style: none;
 }
 
+table {
+  border-spacing: 0;
+  padding: 0;
+  border: 0;
+  border-collapse: collapse;
+}
+
 .loaderArea {
   background-image: url("../img/logo.svg");
   background-position: center;
@@ -469,6 +476,15 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.footer .footer-section .footer-yan {
+  width: 650;
+  height: 250;
+}
+
+.footer .footer-section .footer-yan .yandex {
+  border: 0;
 }
 
 .footer .footer-section .footer-contact .footer-contacts-h {
