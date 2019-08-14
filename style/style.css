@@ -223,6 +223,9 @@ table {
 .tab-b .container .container-center .info-neolift {
   margin-bottom: 30px;
 }
+.tab-b .container .container-center .info-neolift p {
+  padding-bottom: 17px;
+}
 
 .tab-b .container .container-center .info-neolift h2 {
   text-align: center;
