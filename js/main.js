@@ -1,3 +1,4 @@
+
 // Отправка заявки 
 $(document).ready(function() {
 	$('#form-mail').submit(function(event) { 
